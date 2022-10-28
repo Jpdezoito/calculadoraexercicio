@@ -26,23 +26,22 @@ console.log(multiplicacao(10, 2))
 console.log(divisao(10, 5))
 console.log(divisao(10, 0))
 
-function quadraDodoNumero(dois = 2) {
+//quadraDodoNumero
+function quadraDodoNumero(dois) {
     console.log(multiplicacao(dois, dois));
     
 }
 quadraDodoNumero(2);
 
+//mediaDeTresNumeros
 function mediaDeTresNumeros(um, dois, tres) {
     let tresnumeros = adicionar(um, dois) + tres;
     let  total = divisao(tresnumeros, 2);
     return total;
 }
 console.log(mediaDeTresNumeros(5,6,3));
-function calculaPorcentagem(cem, cinco) {
-    
 
-}
-
+//calculaPorcentagem
 function  calculaPorcentagem(uno, duos) {
     let porcentagem = multiplicacao(uno, duos);
     let resultado = divisao(porcentagem, 100);
@@ -51,6 +50,7 @@ function  calculaPorcentagem(uno, duos) {
 
 console.log(calculaPorcentagem(300, 15))
 
+//geradorDePorcentagem 
 function geradorDePorcentagem(uno ,duos) {
     let porcentagem = multiplicacao(uno, 100);
     let resultado = divisao(porcentagem, duos);
