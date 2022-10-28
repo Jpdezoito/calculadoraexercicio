@@ -36,7 +36,7 @@ quadraDodoNumero(2);
 //mediaDeTresNumeros
 function mediaDeTresNumeros(um, dois, tres) {
     let tresnumeros = adicionar(um, dois) + tres;
-    let  total = divisao(tresnumeros, 2);
+    let  total = divisao(tresnumeros, 3);
     return total;
 }
 console.log(mediaDeTresNumeros(5,6,3));
